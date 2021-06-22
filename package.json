@@ -4,7 +4,9 @@
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build",
+    "start": "gulp"
   },
   "author": "",
   "license": "ISC",
@@ -24,6 +26,8 @@
     "gulp-scss": "^1.4.0",
     "gulp-uglify-es": "^2.0.0",
     "jquery": "^3.6.0",
-    "slick-carousel": "^1.8.1"
+    "run": "^1.4.0",
+    "slick-carousel": "^1.8.1",
+    "start": "^5.1.0"
   }
 }
