@@ -2,7 +2,6 @@
 @import 'global';
 @import 'vars';
 @import 'fonts';
-@import 'libs';
 
 .header{
     background-image: url(../images/decor/header-bg.png);
@@ -1034,6 +1033,10 @@ select{
     }
 }
 
-
+.fancybox-caption {
+    padding: 75px unquote('max(44px, env(safe-area-inset-right))') unquote('max(25px, env(safe-area-inset-bottom))') unquote('max(44px, env(safe-area-inset-left))');
+    padding-left: unquote('max(12px, env(safe-area-inset-left))');
+    padding-right: unquote('max(12px, env(safe-area-inset-right))');
+}
 
 @import 'media';
